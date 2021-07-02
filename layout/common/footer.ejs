@@ -4,12 +4,12 @@
             <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
             <div class="credit">
                 <h1 class="logo-wrap">
-                    <a href="<%- url_for() %>" class="logo"></a>
+                    <a href="<%- url_for() %>" class=""></a>
                 </h1>
-                <p>&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %></p>
-                <% if (theme.poweredby) { %>
-                <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
-                <% } %>
+                <p>&copy; VNTG. All rights reserved. Powered by GitHub Pages.</p>
+                
+                <p> Created by <a href="https://github.com/jonggang08/VntgTechBlog" target="_blank">배종강 (Bae Jong-Gang)</a></p>
+                
             </div>
             <div class="footer-plugins">
               <%- partial('plugin/scripts', { isFooter: true }) %>
@@ -17,3 +17,5 @@
         </div>
     </div>
 </footer>
+
+
